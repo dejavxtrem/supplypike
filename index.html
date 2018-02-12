@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Customer EDI x12 Portal</title>
+    <!-- stlyesheet -->
+    <link rel="stylesheet" href="./Resources/css/reset.css" type="test/css">
+    <link rel="stylesheet" href="./Resources/css/style.css" type ="text/css">
+     <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type ="text/css">
+</head>
+<body>
+<!---Main page--->
+   <div class="supplypikeheader">
+       
+<h2>SupplyPike EDI Test Portal</h2>
+</div>
+<!---Login Details--->
+  <div class="wrap-login100">
+<form id="form_id method="post" name="myform">
+    <div class="imgcontainer" name="login">
+    <img src="Resources/images/supplypike1.png" alt="Avatar" class="avatar">
+  </div>
+    <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required id="username">
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required id="password">
+
+    <button type="submit" id="submit" onclick="validate()" value="login">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+<div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="spedibtn">Spedi</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</form>
+
+  </div>
+<script src="./Resources/js/login.js"></script>
+
+
+
+</body>
+</html>

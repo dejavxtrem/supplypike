@@ -1,7 +1,7 @@
 
  html{
 line-height: 1.15;
-background: #7579ff;
+background: linear-gradient(286deg, rgb(112, 109, 195), rgb(87, 164, 232));
 
 
  }
@@ -42,6 +42,7 @@ form {
     border: 3px solid #f1f1f1;
     justify-content: center;
     border-radius: 10px;
+    
    
     
 }
@@ -60,7 +61,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-    background-color: #4CAF50;
+    background-color: rgba(86, 192, 86, 0.932);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
